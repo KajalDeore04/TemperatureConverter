@@ -1,61 +1,61 @@
+body {
+    background-color: #fffaf0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+}
 
-        body {
-            background-color: #fffaf0; 
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-align: center;
-            padding: 20px;
-        }
-        
-        h2 {
-            color: olive;
-        }
+h2 {
+    color: olive;
+}
 
-        .container {
-            background-color: #fff;
-            border: 1px solid #ffdab9;
-            padding: 20px;
-            margin: 0 auto;
-            max-width: 200px;
-            border-radius: 5px;
-        }
+.container {
+    
+    border: 1px solid #ffdab9;
+    width: 420px;
+    background: transparent;
+    border-radius: 12px;
+    backdrop-filter: blur(9px);
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.4);
+    padding: 30px 40px;
+}
 
-        input {
-           
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid olive;
-            border-radius: 20px;
-            max-width: 200px;
-        }
+input {
 
-        select {
-            
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid olive;
-            border-radius: 20px;
-            max-width: 120px;
-        }
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid olive;
+    border-radius: 20px;
+    max-width: 200px;
+}
 
-        button {
-            background-color:  burlywood; 
-            color: #fff; 
-            border: none;
-            padding: 10px 20px;
-            border-radius: 30px;
-            cursor: pointer;
-            width: 100%;
-            margin: 10px 0;
-            max-width: 200px;
-        }
+select {
 
-        button:hover {
-            background-color:olive; 
-        }
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid olive;
+    border-radius: 20px;
+    max-width: 120px;
+}
 
-        #result {
-            margin: 20px 0;
-            font-weight: bold;
-            color: olive; 
-        }
-   
+button {
+    background-color: burlywood;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+    max-width: 200px;
+}
+
+button:hover {
+    background-color: olive;
+}
+
+#result {
+    margin: 20px 0;
+    font-weight: bold;
+    color: olive;
+}
